@@ -1,0 +1,12 @@
+        private int[][] arraycopy2(int[][] from)
+        {
+            int[][] to;
+            to = new int[from.length][];
+            for(int row=0; row<from.length; row++)
+            {
+                to[row] = new int[from[row].length];
+                System.arraycopy(from, 0, to, 0, from[row].length);
+            }
+
+            return to;
+        }
