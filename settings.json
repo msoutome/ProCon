@@ -1,0 +1,17 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "java.home": "C:\\Program Files\\Java\\jdk1.8.0_181",
+    "java.jdt.ls.vmargs": "-noverify -Dfile.encoding=utf8 -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
+    "terminal.integrated.shell.windows": "C:\\Windows\\system32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/k",
+        "chcp",
+        "65001",
+        "&",
+        "doskey",
+        "javac=javac",
+        "-encoding",
+        "UTF-8",
+        "$*"
+    ]
+}
